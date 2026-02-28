@@ -64,7 +64,7 @@ export default function ContactForm() {
             <div className="flex flex-col text-start">
                 <form className="flex flex-col" onSubmit={handleSubmit(submitEmail)}>
 
-                    <label htmlFor="name" className="text-white mt-5 px-2">Name</label>
+                    <label htmlFor="name" className="text-white mt-5 px-2">Names</label>
                     <input className="md:w-[30vw] w-full mt-2 mb-5 px-5 py-3 bg-[#1e1e1e] border border-[#5b5b5b] rounded-lg text-[#929292]" 
                     type="text" id="name-input" placeholder="Your Name" 
                     {...register("name", {
