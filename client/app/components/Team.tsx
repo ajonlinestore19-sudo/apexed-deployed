@@ -38,7 +38,7 @@ export default function Team() {
                         "/assets/images/skyrone-prof.webp"
                     } alt="professional-pic-1" width={400} height={450} />
                 </span>
-                <div className="absolute flex flex-col md:w-[375px] w-[90%] bottom-5 left-5 z-20 p-2 bg-[#121212] border border-[#1e1e1e] rounded-lg">
+                <div className="absolute flex flex-col md:w-[375px] w-[90%] bottom-3 md:left-[10px] left-5 z-20 p-2 bg-[#121212] border border-[#1e1e1e] rounded-lg">
                     <h3 className="text-white text-md">{!members ? "SJ Inoue" : "Mckinley Soguilon"}</h3>
                     <span className="absolute z-20 right-5 bottom-4 p-2 border border-[#c64811] rounded-full">
                         <Image src="/assets/plus-icon.svg" alt="plus-icon" width={15} height={15} />
@@ -54,7 +54,7 @@ export default function Team() {
                         "/assets/images/lance-prof.webp"
                     } alt="professional-pic-2" width={400} height={450} />
                 </span>
-                <div className="absolute flex flex-col md:w-[375px] w-[90%] bottom-5 left-5 z-20 p-2 bg-[#121212] border border-[#1e1e1e] rounded-lg">
+                <div className="absolute flex flex-col md:w-[375px] w-[90%] bottom-3 md:left-[10px] left-5 z-20 p-2 bg-[#121212] border border-[#1e1e1e] rounded-lg">
                     <h3 className="text-white text-md">{!members ? "Ajay Camacho" : "Lance Maghanoy"}</h3>
                     <span className="absolute z-20 right-5 bottom-4 p-2 border border-[#c64811] rounded-full">
                         <Image src="/assets/plus-icon.svg" alt="plus-icon" width={15} height={15} />
@@ -70,7 +70,7 @@ export default function Team() {
                         "/assets/images/dave-prof.webp"
                     } alt="professional-pic-3" width={400} height={450} />
                 </span>
-                <div className="absolute flex flex-col md:w-[375px] w-[90%] bottom-5 left-5 z-20 p-2 bg-[#121212] border border-[#1e1e1e] rounded-lg">
+                <div className="absolute flex flex-col md:w-[375px] w-[90%] bottom-3 md:left-[10px] left-5 z-20 p-2 bg-[#121212] border border-[#1e1e1e] rounded-lg">
                     <h3 className="text-white text-md">{!members ? "Tim Cuasay" : "Dave Glomar"}</h3>
                     <span className="absolute z-20 right-5 bottom-4 p-2 border border-[#c64811] rounded-full">
                         <Image src="/assets/plus-icon.svg" alt="plus-icon" width={15} height={15} />
